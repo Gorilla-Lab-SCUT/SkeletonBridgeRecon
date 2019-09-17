@@ -5,12 +5,12 @@
 cd Skeleton_inference
 mkdir log
 ## Create python env with relevant packages
-conda create --name skeleton python=3.7
+conda create --name skeleton python=2.7
 source activate skeleton
-pip install pillow pandas scipy visdom opencv-python plyfile
+pip install pillow pandas scipy visdom opencv-python plyfile trimesh
 conda install pytorch torchvision -c pytorch
 ```
-Tested on pytorch >= 1.0 and python3.
+Tested on pytorch >= 1.0 and python2.7.
 
 ### Setting
 
