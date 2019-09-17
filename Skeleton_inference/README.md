@@ -49,10 +49,24 @@ bash ./scripts/train_curskenet.sh
 bash ./scripts/train_surskenet.sh
 ```
 
-### Demo
+### Trained_models
+The trained models are also available online. 
+* Download and unzip [the trained models]((https://drive.google.com/open?id=15Bo4WhvksXzOt4ZJl1BbeH-ogCnEEZzX)).
 
+### Inference
+You can run the script to visualize the inferred skeleton (point cloud) from single RGB images.
+```shell
+bash ./scripts/gen_ske_ply.sh
+```
+
+### Demo
+You can run the script to visualize the predicted skeleton of some object in ShapeNet.
 ```shell
 bash ./scripts/demo.sh
 ```
 
-Next, we will release the code and dataset of patch-based high resolution skeletal volume refinement!
+### Initial skeletal volume generation for Stage 2 (Volume refinement)
+```shell
+bash ./scripts/gen_binvox.sh
+```
+For convenience, you can use the .npz instead of .binvox format file to save the initial skeletal volume!
