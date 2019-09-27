@@ -51,8 +51,8 @@ bash ./scripts/train_surskenet.sh
 
 ### Trained_models
 The trained models are also available online. 
-* Download and unzip [the trained models](https://drive.google.com/open?id=15Bo4WhvksXzOt4ZJl1BbeH-ogCnEEZzX)  go in
-```your path/Skeleton_inference/```.
+* Download and unzip [the trained models](https://drive.google.com/open?id=1WfbJZGeBUU7cYE8jZ1rHI5pvVwniMqFH)  go in
+```your path/Skeleton_inference/trained_models```.
 
 ### Inference
 You can run the script to visualize the inferred skeleton (point cloud) from single RGB images.
