@@ -191,8 +191,7 @@ for file in fns:
     voxels = torch.squeeze(final).cpu().numpy()
     voxels = np.pad(voxels, (1, 1), 'constant', constant_values=(0, 0))  ## padding for generating a closed shape
     vertices, faces, = libmcubes.marching_cubes(voxels, 0.5)
-    #vertices = (vertices - 63.5)/128.0 * scale + translate + np.array([0, 0, -0.8], dtype='f4')
-    vertices = (vertices - 63.5)/128.0 * scale + np.array([0, 0, -0.8], dtype='f4')
+    vertices = (vertices - 63.5)/128.0 * scale + np.array([0, 0, -0.8*1.75], dtype='f4')
     mesh = trimesh.Trimesh(vertices, faces, vertex_normals=None, process=False)
     mesh = libsimplify.simplify_mesh(mesh, opt.nfaces)
     mesh.export(objfile)

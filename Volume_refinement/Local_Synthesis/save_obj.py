@@ -145,8 +145,8 @@ if True:
         with open(gt_file, 'rb') as fp:
             dims, translate, scale = binvox_rw.read_header(fp)
         vertices, faces, = libmcubes.marching_cubes(voxels, 0.5)
-        vertices = (vertices - 63.5)/128.0 * scale + np.array([0, 0, -0.8], dtype='f4') 
-        ##vertices = (vertices - 63.5)/128.0 * scale + translate #don't use this
+        vertices = (vertices - 63.5)/128.0 * scale + np.array([0, 0, -0.8*1.75], dtype='f4') 
+        ##vertices = (vertices - 63.5)/128.0 * scale + translate
         mesh = trimesh.Trimesh(vertices, faces, vertex_normals=None, process=False)
         mesh = libsimplify.simplify_mesh(mesh, opt.nfaces)
         mesh.export(objfile)

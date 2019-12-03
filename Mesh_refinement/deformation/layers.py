@@ -152,8 +152,8 @@ class GraphProjection(Layer):
         Y = inputs[:, 1]
         Z = inputs[:, 2]
 
-        h = 112 * tf.divide(-Y, -Z) + 111.5
-        w = 112 * tf.divide(X, -Z) + 111.5
+        h = 248.0 * tf.divide(-Y, -Z) + 112.0
+        w = 248.0 * tf.divide(X, -Z) + 112.0
 
         h = tf.minimum(tf.maximum(h, 0), 223)
         w = tf.minimum(tf.maximum(w, 0), 223)
