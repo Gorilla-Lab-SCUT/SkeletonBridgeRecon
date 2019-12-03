@@ -2,12 +2,8 @@ This repository constains the codes and [ShapeNet-Skeleton](https://drive.google
 
 This implementation uses [Pytorch](http://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
 
-### Download
-
-```shell
-## Download the repository
-git clone https://github.com/tangjiapeng/SkeletonBridgeRecon
-```
+### Implementation details
+For each stage, please follow the README.md under the ```Skeleton_inference/Volume_refinement/Mesh_refinement``` folder.
 
 ### Citing this work
 If you find this work useful in your research, please consider citing:
