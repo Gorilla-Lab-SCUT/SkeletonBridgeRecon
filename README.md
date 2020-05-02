@@ -5,6 +5,16 @@ This implementation uses [Pytorch](http://pytorch.org/) and [TensorFlow](https:/
 ### Implementation details
 For each stage, please follow the README.md under the ```Skeleton_inference/Volume_refinement/Mesh_refinement``` folder.
 
+### Fast demo
+* Skeleton inference from the RGB images, and then extract coarse meshes from refined volumes.
+```shell
+python demo_im2mesh.py
+```
+* Reuse the input images to deform coarse meshes for surface fitting.
+```shell
+python demo_deform.py
+```
+
 ### Citing this work
 If you find this work useful in your research, please consider citing:
 ```shell
