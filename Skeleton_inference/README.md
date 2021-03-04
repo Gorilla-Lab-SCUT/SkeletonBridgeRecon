@@ -26,7 +26,7 @@ source activate skeleton
 
 We used the rendered imaged from [3d-R2N2](https://github.com/chrischoy/3D-R2N2), and the 3D models from [ShapeNet](https://www.shapenet.org/).
 * [The rendered images](https://cloud.enpc.fr/s/S6TCx1QJzviNHq0) go in ```data/ShapeNetRendering```
-* [The Curve/Sheet Skeleton(*.ply) datasets](https://drive.google.com/open?id=1cxQmPTYXpATAe4abdE9WojSFPMPMTIaT) go in ```data/ShapeNetPointCloud```
+* [The Curve/Sheet Skeleton(*.ply) datasets - ShapeNetPointCloud.zip](https://drive.google.com/drive/folders/19a8rBLl5zt9dv2RVnbROhbudRQV10bZE) go in ```data/ShapeNetPointCloud```
 * you can run ```cd data; python ply2mat.py; cd ..``` to convet the *.ply file to *.mat file.
 
 ### Build chamfer distance
@@ -51,7 +51,7 @@ bash ./scripts/train_surskenet.sh
 
 ### Trained_models
 The trained models are also available online. 
-* Download and unzip [the trained models](https://drive.google.com/open?id=1WfbJZGeBUU7cYE8jZ1rHI5pvVwniMqFH)  go in
+* Download and unzip the [skeleton_trained_models.zip](https://drive.google.com/drive/folders/19a8rBLl5zt9dv2RVnbROhbudRQV10bZE)  go in
 ```your path/Skeleton_inference/trained_models```.
 
 ### Inference

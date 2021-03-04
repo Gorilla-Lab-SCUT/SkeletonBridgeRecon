@@ -1,7 +1,7 @@
 ### Data
 
 * You can download the online dataset(including initial and true skeletal volume) for volume refinement learning.
-* [The dataset](https://drive.google.com/open?id=1Vc1MNL1EZPndcWs5tP-hehLPQytn0VQA) go in ```your path/Volume_refinement/data```
+* The [volume_refinement_dataset](https://drive.google.com/drive/folders/19a8rBLl5zt9dv2RVnbROhbudRQV10bZE) go in ```your path/Volume_refinement/data```
 
 ### Training
 * In the released code, the global guidance and local synthesis network are trained separately. 
@@ -18,7 +18,7 @@ bash scripts/local.sh
 
 ### Trained models
 
-* We have provided the [trained models](https://drive.google.com/open?id=15iAaCZGdPIIlJJaXxWMtTkiws0A8NnUX) for testing. 
+* We have provided the [volume_trained_models.zip](https://drive.google.com/drive/folders/19a8rBLl5zt9dv2RVnbROhbudRQV10bZE) for testing. 
 * You can download the trained models, unzip them, and then go in ```your path/Volume_refinement/trained_models```
 
 ### Base mesh generation
