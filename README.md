@@ -1,5 +1,13 @@
 This repository constains the codes and [ShapeNet-Skeleton.zip](https://drive.google.com/drive/folders/19a8rBLl5zt9dv2RVnbROhbudRQV10bZE) datasets for the [Paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tang_A_Skeleton-Bridged_Deep_Learning_Approach_for_Generating_Meshes_of_Complex_CVPR_2019_paper.pdf).
 
+<p align="center">
+  <img src="./images/teaser.png" />
+</p>
+
+<p align="center">
+  <img src="./images/pipeline.png" />
+</p>
+
 This implementation uses [Pytorch](http://pytorch.org/) and [TensorFlow](https://www.tensorflow.org/).
 
 ### Implementation details
@@ -26,3 +34,6 @@ month = {June},
 year = {2019}
 }
 ```
+
+### Contact 
+If you have any questions,  please feel free to contact with Tang Jiapeng msjptang@mail.scut.edu.cn.
