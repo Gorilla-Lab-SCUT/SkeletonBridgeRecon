@@ -20,7 +20,7 @@ cats = [
 
 
 for cat in cats:
-    if not os.path.exists('./ShapeNetPointCloud' + cat):
+    if not os.path.exists('./ShapeNetPointCloud/' + cat):
         continue
     datadir = os.path.join('./ShapeNetPointCloud', cat, 'classify')
     outdir = os.path.join('./ShapeNetPointCloud', cat, 'classify_mat')
